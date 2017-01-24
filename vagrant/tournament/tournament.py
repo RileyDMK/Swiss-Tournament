@@ -119,11 +119,6 @@ def swissPairings():
         name1: the first player's name
         id2: the second player's unique id
         name2: the second player's name
-
-    The commented out sections are attempts at making a matches table work.
-    You do not need this to meet specifications so I simply leave my attempts
-    for speculation. The error was a syntax problem when attempting string
-    substitution.
     """
     standings = playerStandings()
     even_standings = []
