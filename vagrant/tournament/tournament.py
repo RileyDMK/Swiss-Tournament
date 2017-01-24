@@ -126,6 +126,7 @@ def swissPairings():
     pairings = []
 
     # This solution is inspired by an answer on the forums.
+    # Players at the same index in both lists get paired with eachother.
     for index, val in enumerate(standings):
         if index % 2 == 0:
             even_standings.append(val)
